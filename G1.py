@@ -10,4 +10,4 @@ def menorDigito (n):
         else:
             return menorDigito(n//100*10+b)
 
-print(menorDigito(12345))
+print(menorDigito(5301))
